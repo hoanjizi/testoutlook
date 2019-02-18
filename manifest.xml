@@ -20,12 +20,12 @@
   <Description DefaultValue="Allows users to access their GitHub gists"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/hi-res-icon.png"/>
+  <IconUrl DefaultValue="https://testoutlook.herokuapp.com//assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://testoutlook.herokuapp.com/assets/hi-res-icon.png"/>
   
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
   
-  <SupportUrl DefaultValue="https://localhost:3000/support.html" />
+  <SupportUrl DefaultValue="https://testoutlook.herokuapp.com//support.html" />
 
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
@@ -46,7 +46,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/index.html"/>
+        <SourceLocation DefaultValue="https://testoutlook.herokuapp.com/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -117,14 +117,14 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://testoutlook.herokuapp.com/assets/icon-16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://testoutlook.herokuapp.com/assets/icon-32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://testoutlook.herokuapp.com/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://localhost:3000/function-file/function-file.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://localhost:3000/index.html"/>
-        <bt:Url id="insertGistPaneUrl" DefaultValue="https://localhost:3000/msg-compose/insert-gist.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://testoutlook.herokuapp.com/function-file/function-file.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://testoutlook.herokuapp.com/index.html"/>
+        <bt:Url id="insertGistPaneUrl" DefaultValue="https://testoutlook.herokuapp.com/msg-compose/insert-gist.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Git the gist"/>
