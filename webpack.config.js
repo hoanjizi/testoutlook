@@ -6,6 +6,10 @@ module.exports = {
         app: './src/index.js',
         'function-file': './function-file/function-file.js'
     },
+    devServer: {
+        inline: true,
+        port: process.env.PORT || 8080
+      },
     module: {
         rules: [
             {
